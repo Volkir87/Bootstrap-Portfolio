@@ -5,39 +5,50 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- <link href="assets/css/style.css" rel="stylesheet" type="text/css"> -->
         <title>Kirill Volodkin Portfolio Page</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
-
-    <body>
-        <div>
-            <div class="row navbar navbar-expand-lg navbar-light bg-light justify-content-start fixed-end">
-                <div class="offset-sm-2 navbar-brand bg-info text-white">Kirill Volodkin</div>
-                <nav class="navbar-nav ml-auto">
-                    <a href="index.html" class="nav-link float-right">About</a>
-                    <a href="portfolio.html" class="nav-link float-right">Portfolio</a>
-                    <a href="contact.html" class="nav-link float-right">Contact</a>
-                </nav>
-                <div class="col-sm-2"></div>
+    <body class="ml-2">
+        <nav class="row navbar navbar-toggleable-sm navbar-expand-sm navbar-light bg-light fixed-end">
+            <div class="offset-sm-2 navbar-brand bg-info text-white p-2">Kirill Volodkin</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end ml-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-sm-8 offset-sm-2 border border-info mt-5">
-                    <div class="row">
-                        <div class="col-12 mb-3 p-3 border-bottom border-info">About me</div>
+            <div class="col-sm-2"></div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2 border border-info mt-5">
+                <div class="row">
+                    <div class="col-12 mb-3 p-3 border-bottom border-info">
+                        <h5>About me</h5>
                     </div>
-                    <div class="row">
-                        <div class>
-                            <img class="image float-left m-3" style="max-height: 150px; max-width: 150px;" src="assets/images/GIR_-_Dog_Suit_Art.png"/> 
-                            <p>Hi, I am Kirill.</p>
-                            <p>I am currently a student in U of T School of Continuing Studies. Hopefully I will soon become a full-stack developer.</p>
-                            <p>Fun fact: from ancient Greek, "Kirilos" means "Lordly, Masterful". Also, I am a shy person.</p>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class>
+                        <img class="image float-left m-3" style="max-height: 150px; max-width: 150px;" src="assets/images/GIR_-_Dog_Suit_Art.png"/> 
+                        <p>Hi, I am Kirill.</p>
+                        <p>I am currently a student in U of T School of Continuing Studies. Hopefully I will soon become a full-stack developer.</p>
+                        <p>Fun fact: from ancient Greek, "Kirilos" means "Lordly, Masterful". Also, I am a shy person.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="row navbar fixed-bottom navbar-dark bg-primary justify-content-center">
-            (c) Copyright
+        <footer class="row navbar fixed-bottom navbar-dark bg-light justify-content-center">
+        (c) Copyright
         </footer>
-        
-
     </body>
 </html>
